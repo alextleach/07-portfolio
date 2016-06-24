@@ -15,7 +15,6 @@ const stylePaths = [
   'node_modules/normalize-css',
   'node_modules/font-awesome/scss',
   'node_modules/yoga-sass/assets',
-  'node_modules/foundation-sites/scss',
 ];
 
 const compiledSass = new Sass(stylePaths, 'app.scss', 'app.css');

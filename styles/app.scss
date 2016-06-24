@@ -4,6 +4,57 @@
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome';
 @import 'box-sizing';
-@import 'foundation';
+@import 'resets';
 
-@include foundation-everything(true);
+body {
+  background: #fff;
+}
+
+.top-container {
+  max-width: 35em;
+  margin: 0 auto;
+}
+.master-container {
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+.nav-top {
+  width: 100%;
+  margin: 0;
+  background: #161616;
+  color: #fff;
+  box-shadow: 0rem 0.3rem 0.5rem #000;
+}
+
+.nav-group {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  margin: 0;
+
+  &__item {
+    width: 20%;
+    padding: 0.5rem 0 0.5rem 0;
+  }
+
+  &__logo {
+    width: 55%;
+  }
+}
+
+.top-banner {
+  margin: auto;
+  padding: 3.6rem 0;
+  background: url('img/scribble2.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.projects-header {
+  text-align: center;
+  padding: 1.5rem;
+}
