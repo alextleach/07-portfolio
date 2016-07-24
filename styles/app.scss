@@ -16,16 +16,19 @@ body {
 }
 
 .top-container {
+  padding: 0 $gutter;
   max-width: 35em;
   margin: 0 auto;
 }
 .master-container {
+  padding: 0 $gutter;
   max-width: 60em;
   margin: 0 auto;
 }
 
 .nav-top {
   width: 100%;
+  padding: 0 $gutter;
   margin: 0;
   background: #161616;
   color: #fff;
@@ -55,7 +58,7 @@ body {
 
 .top-banner {
   margin: auto;
-  padding: 5rem 0;
+  padding: 5rem $gutter;
   background: url('img/scribble.jpg');
   background-size: cover;
   background-position: center;
@@ -95,7 +98,7 @@ hr.banner__line {
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0.5rem 0;
+  padding: 0.5rem $gutter;
 
   &--info {
     width: 50%;
@@ -118,7 +121,7 @@ hr.banner__line {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse;
-  padding: 0.5rem 0;
+  padding: 0.5rem $gutter;
 
   &__info {
     width: 50%;
@@ -141,6 +144,7 @@ hr.banner__line {
 
 .footer-container {
   width: 100%;
+  padding: 0 $gutter;
   margin-top: 3rem;
   background: #161616;
   color: #fff;
@@ -175,7 +179,7 @@ and (max-width: 650px) {
   }
 
   .top-banner {
-    padding: 2.5rem 0;
+    padding: 2.5rem $gutter;
   }
 
   .row {
